@@ -210,9 +210,9 @@ a:hover {
 }
 
 .socials .ico-circle {
-  height: 50px;
-  width: 50px;
-  font-size: 2.1rem;
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
@@ -781,9 +781,8 @@ a:hover {
 }
 
 .work-img {
-  display: flex;
+  display: block;
   overflow: hidden;
-  border-radius: 20px;
 }
 
 .work-img img {
@@ -791,7 +790,7 @@ a:hover {
 }
 
 .work-content {
-  padding: 2rem ;
+  padding: 2rem 3% 1rem 4%;
 }
 
 .work-content .w-more {
@@ -877,7 +876,7 @@ a:hover {
   top: -16px;
   left: 15px;
   right: 15px;
-  line-height: 15px;
+  line-height: 25px;
   overflow: hidden;
 }
 
@@ -915,6 +914,7 @@ a:hover {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
+  float: right;
 }
 
 /*======================================
@@ -1255,6 +1255,12 @@ footer .credits a {
 @media (min-width: 1200px) {
   .testimonial-box .description {
     padding: 0 13rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
   }
 }
 
